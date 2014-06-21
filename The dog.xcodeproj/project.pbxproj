@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F02E7019553F4C001B8874 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F02E6F19553F4C001B8874 /* WebViewController.m */; };
+		18F02E73195544C3001B8874 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F02E72195544C3001B8874 /* MyUIApplication.m */; };
+		18FB7EA9195519D300222D21 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB7EA8195519D300222D21 /* DetailViewController.m */; };
+		8A083F9419541B1600F2DA63 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A083F9319541B1600F2DA63 /* TimeLineTableViewController.m */; };
+		8A083F9719541DE500F2DA63 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A083F9619541DE500F2DA63 /* TimeLineCell.m */; };
 		8AC586DE1953C69600D51D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC586DD1953C69600D51D84 /* Foundation.framework */; };
 		8AC586E01953C69600D51D84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC586DF1953C69600D51D84 /* CoreGraphics.framework */; };
 		8AC586E21953C69600D51D84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC586E11953C69600D51D84 /* UIKit.framework */; };
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F02E6E19553F4C001B8874 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "The Dog/WebViewController.h"; sourceTree = SOURCE_ROOT; };
+		18F02E6F19553F4C001B8874 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "The Dog/WebViewController.m"; sourceTree = SOURCE_ROOT; };
+		18F02E71195544C3001B8874 /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUIApplication.h; path = "The Dog/MyUIApplication.h"; sourceTree = SOURCE_ROOT; };
+		18F02E72195544C3001B8874 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUIApplication.m; path = "The Dog/MyUIApplication.m"; sourceTree = SOURCE_ROOT; };
+		18FB7EA7195519D300222D21 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = "The Dog/DetailViewController.h"; sourceTree = SOURCE_ROOT; };
+		18FB7EA8195519D300222D21 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = "The Dog/DetailViewController.m"; sourceTree = SOURCE_ROOT; };
+		8A083F9219541B1600F2DA63 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		8A083F9319541B1600F2DA63 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		8A083F9519541DE500F2DA63 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		8A083F9619541DE500F2DA63 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
 		8AC586DA1953C69600D51D84 /* The dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The dog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC586DD1953C69600D51D84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AC586DF1953C69600D51D84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +134,16 @@
 				8AC586F31953C69600D51D84 /* ViewController.m */,
 				8AC586F51953C69600D51D84 /* Images.xcassets */,
 				8AC586E41953C69600D51D84 /* Supporting Files */,
+				8A083F9219541B1600F2DA63 /* TimeLineTableViewController.h */,
+				8A083F9319541B1600F2DA63 /* TimeLineTableViewController.m */,
+				8A083F9519541DE500F2DA63 /* TimeLineCell.h */,
+				8A083F9619541DE500F2DA63 /* TimeLineCell.m */,
+				18FB7EA7195519D300222D21 /* DetailViewController.h */,
+				18FB7EA8195519D300222D21 /* DetailViewController.m */,
+				18F02E6E19553F4C001B8874 /* WebViewController.h */,
+				18F02E6F19553F4C001B8874 /* WebViewController.m */,
+				18F02E71195544C3001B8874 /* MyUIApplication.h */,
+				18F02E72195544C3001B8874 /* MyUIApplication.m */,
 			);
 			path = "The dog";
 			sourceTree = "<group>";
@@ -204,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8AC586D51953C69600D51D84 /* Build configuration list for PBXProject "The dog" */;
+			buildConfigurationList = 8AC586D51953C69600D51D84 /* Build configuration list for PBXProject "The Dog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A083F9719541DE500F2DA63 /* TimeLineCell.m in Sources */,
+				18F02E7019553F4C001B8874 /* WebViewController.m in Sources */,
 				8AC586F41953C69600D51D84 /* ViewController.m in Sources */,
 				8AC586EE1953C69600D51D84 /* AppDelegate.m in Sources */,
+				18F02E73195544C3001B8874 /* MyUIApplication.m in Sources */,
+				8A083F9419541B1600F2DA63 /* TimeLineTableViewController.m in Sources */,
 				8AC586EA1953C69600D51D84 /* main.m in Sources */,
+				18FB7EA9195519D300222D21 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AC586D51953C69600D51D84 /* Build configuration list for PBXProject "The dog" */ = {
+		8AC586D51953C69600D51D84 /* Build configuration list for PBXProject "The Dog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AC5870A1953C69600D51D84 /* Debug */,
@@ -456,6 +486,7 @@
 				8AC5870E1953C69600D51D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC5870F1953C69600D51D84 /* Build configuration list for PBXNativeTarget "The dogTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				8AC587111953C69600D51D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
